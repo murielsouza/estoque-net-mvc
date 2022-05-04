@@ -1,0 +1,6 @@
+CREATE DATABASE Loja
+
+CREATE TABLE [Produtos] (
+          [Id] int NOT NULL IDENTITY,
+          [Nome] nvarchar(150) NOT NULL,
+          CONSTRAINT [PK_Produtos] PRIMARY KEY ([Id]))
